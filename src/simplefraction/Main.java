@@ -16,7 +16,11 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
         System.out.println("HELLO WORLD!");
+        Fraction f= new Fraction(6,4);
+        
+        System.out.println(f.toString());
     }
     
 }

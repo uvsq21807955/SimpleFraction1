@@ -11,4 +11,19 @@ package simplefraction;
  */
 public class Fraction {
     
+    private int Denominateur,Nominateur;
+    
+    public Fraction(){}
+    public Fraction(int n,int d)
+    {
+        this.Nominateur=n;
+        this.Denominateur=d;
+    }
+    
+    @Override
+    public String toString()
+    {
+        return this.Nominateur+"/"+this.Denominateur;
+    }
+    
 }
